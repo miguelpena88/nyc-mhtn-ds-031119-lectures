@@ -1,12 +1,19 @@
 # Make a function to determine if a number is odd or even
 
-def odd_even():
-    pass
+def odd_even(num):
+    if num%2 == 0:
+        print("even")
+    else:
+        print("odd")
 
 # Make a function that takes in a list of numbers and returns the numbers that are even
 
 def even_list(numbers):
-    pass
+    even_nums=[]
+    for x in numbers:
+        if x%2==0:
+            even_nums.append(x)
+    print(even_nums)
 
 # Given a list return the unique names in the list
 
